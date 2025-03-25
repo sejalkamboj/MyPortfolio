@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css"/>
-    <title>My portfolio</title>
+    <title>Sejal Kamboj - Portfolio</title>
 </head>
 <body>
-    <nav><div class="nav_content">
-        <div class="logo"><a href="#">Sejal Kamboj</a></div>
-        <label for="check" class="checkbox">
-            <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div></nav>
-    <section class="section">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav_content">
+            <div class="logo"><a href="#">Sejal Kamboj</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
         <div class="section_container">
             <div class="content">
                 <p class="subtitle">HELLO</p>
                 <h1 class="title">
-                    I'm <span>Sejal <br></span>a Web Developer
+                    I'm <span>Sejal <br></span>a Cloud & Web Development Enthusiast
                 </h1>
                 <p class="description">
-                    Welcome to my web developer portfolio! I'm Sejal, a skilled and creativeweb developer with a passion for creating beautiful, responsive, and user-friendly websites. I've worked on a variety of web projects,ranging from personal blogs to e-commerce platform.
+                    I am a pre-final year B.Tech student specializing in Computer Science and Engineering at UPES, Dehradun. Passionate about cloud computing, web development, and problem-solving, I love building impactful projects and continuously improving my skills.
                 </p>
                 <div class="action_btns">
-                    <button class="hire_me">Hire me</button>
-                    <button class="Portfolio">Portfolio</button>
+                    <button class="hire_me">Hire Me</button>
+                    <button class="portfolio_btn">Portfolio</button>
                 </div>
             </div>
             <div class="image">
@@ -44,5 +47,56 @@
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <ul class="about_list">
+            <li><i class="ri-graduation-cap-line"></i> <strong>Education:</strong> B.Tech in Computer Science (2022-2026) | UPES, Dehradun | GPA: 7.9/10</li>
+            <li><i class="ri-certificate-line"></i> <strong>Certifications:</strong> AWS Certified | Cloud Computing & Security</li>
+            <li><i class="ri-code-box-line"></i> <strong>Tech Stack:</strong> C, C++, Java, HTML, CSS, JavaScript, React.js, MySQL, MongoDB, AWS</li>
+            <li><i class="ri-tools-line"></i> <strong>Currently Learning:</strong> Docker, Kubernetes</li>
+            <li><i class="ri-briefcase-line"></i> <strong>Career Goal:</strong> Seeking software engineering internships</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects_container">
+            <div class="project_card">
+                <h3>Crowdfunding Platform</h3>
+                <p>A full-stack web app where users can create and manage fundraising campaigns.</p>
+                <ul>
+                    <li>🔹 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP</li>
+                    <li>🔹 Implemented authentication, payment gateway, and campaign tracking</li>
+                    <li>🔹 Backend built using Java with database integration</li>
+                </ul>
+                <a href="https://sejalkamboj.github.io/Crowd_funding/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project_card">
+                <h3>Weather Website</h3>
+                <p>A real-time weather app with search functionality and dynamic weather icons.</p>
+                <ul>
+                    <li>🔹 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, OpenWeather API</li>
+                    <li>🔹 Displays temperature, humidity, wind speed, and weather conditions</li>
+                    <li>🔹 Features error handling for invalid city searches</li>
+                </ul>
+                <a href="https://sejalkamboj.github.io/weather-app/" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            📧 <a href="mailto:sejalkamboj09@gmail.com">sejalkamboj09@gmail.com</a><br>
+            🔗 <a href="https://www.linkedin.com/in/sejal-kamboj-12345s?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a><br>
+            💻 <a href="https://github.com/sejalkamboj" target="_blank">GitHub</a>
+        </p>
+    </section>
+
 </body>
 </html>
